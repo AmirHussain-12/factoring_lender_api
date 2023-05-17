@@ -1,24 +1,31 @@
-# README
+# AI Content
+  Factoring Lender - An API only application in which there are different end points. A borrower can create invoices and assign a lender. 
+  A lender can change the status of invoice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Description
+  Factoring Lender is a type of financing in which businesses sell their accounts receivable, unpaid customer invoices or projected future cash flow for a quick injection of cash right away
 
-Things you may want to cover:
+# Models
+  - User
+  - Lender
+  - Borrower
+  - Invoice
 
-* Ruby version
+# Gems
+  - active_model_serializers
+  - activestorage
+  - cloudinary
+  - devise
+  - devise-jwt
+  - dotenv-rails
+  - pundit
 
-* System dependencies
+# System dependencies
+  - Rails 7.0.4
+  - Ruby 3.2.2
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Setup Instructions
+  - Clone the repo
+  - Run bundle install
+  - Start the server with rails s
+  - go to http://localhost:3000/
