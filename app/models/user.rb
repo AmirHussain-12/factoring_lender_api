@@ -8,4 +8,6 @@ class User < ApplicationRecord
          :jwt_authenticatable, jwt_revocation_strategy: self
 
   enum role_type: { lender: 0, borrower: 1 }
+
+  has_many :invoices, dependent: :restrict_with_exception
 end

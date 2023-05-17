@@ -53,6 +53,9 @@ group :development do
 end
 
 gem 'active_model_serializers'
+gem 'activestorage'
+gem 'cloudinary'
 gem 'devise'
 gem 'devise-jwt'
 gem 'dotenv-rails'
+gem 'pundit'
