@@ -34,9 +34,9 @@
 # Setup Instructions
   - Clone the repo (git clone https://github.com/AmirHussain-12/factoring_lender_api.git)
   - Run bundle install
+  - Place the shared .env file in project's root directory.
   - Setup database
     - rails db:create
     - rails db:migrate
-  - Setup cloudinary keys
   - Start the server with rails s
   - Go to http://localhost:3000
