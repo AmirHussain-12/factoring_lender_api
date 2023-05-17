@@ -29,10 +29,14 @@
 # System dependencies
   - Rails 7.0.4
   - Ruby 3.2.2
-  - postgres
+  - Postgres
 
 # Setup Instructions
-  - Clone the repo
+  - Clone the repo (git clone https://github.com/AmirHussain-12/factoring_lender_api.git)
   - Run bundle install
+  - Setup database
+    - rails db:create
+    - rails db:migrate
+  - Setup cloudinary keys
   - Start the server with rails s
-  - go to /
+  - Go to http://localhost:3000
