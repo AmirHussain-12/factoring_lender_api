@@ -29,6 +29,7 @@
 # System dependencies
   - Rails 7.0.4
   - Ruby 3.2.2
+  - postgres
 
 # Setup Instructions
   - Clone the repo
