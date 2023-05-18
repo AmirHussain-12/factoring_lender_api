@@ -34,7 +34,7 @@
 # Setup Instructions
   - Clone the repo (git clone https://github.com/AmirHussain-12/factoring_lender_api.git)
   - Run bundle install
-  - Place the shared .env file in project's root directory.
+  - Place the shared `backend.env` file in project's root directory and run `cp backend.env .env`.
   - Setup database
     - rails db:create
     - rails db:migrate
